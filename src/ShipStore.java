@@ -1,5 +1,5 @@
 public class ShipStore extends VehicleStore{
-    public Vehicle getVehicle(int speed,int fuelConsumption,int range,int weightCapacity) {
-        return Ship.getShip(speed,fuelConsumption,range,weightCapacity);
+    public Ship getVehicle(int speed,int fuelConsumptionper100Km,int range,int weightCapacity) {
+        return Ship.getShip(speed,fuelConsumptionper100Km,range,weightCapacity);
     }
 }

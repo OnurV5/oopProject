@@ -1,6 +1,6 @@
 public class TruckStore extends VehicleStore{
     @Override
-    public Vehicle getVehicle(int speed,int fuelConsumption,int range,int weightCapacity) {
-        return Truck.getTruck(speed,fuelConsumption,range,weightCapacity);
+    public Truck getVehicle(int speed,int fuelConsumptionper100KM,int range,int weightCapacity) {
+        return Truck.getTruck(speed,fuelConsumptionper100KM,range,weightCapacity);
     }
 }

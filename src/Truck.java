@@ -10,7 +10,7 @@ public class Truck implements Vehicle{
         avgFuelConsumption=fuelConsumption;
         this.weightCapacity=weightCapacity;
     }
-    public static Vehicle getTruck(int speed, int fuelConsumption, int range, int weightCapacity)
+    public static Truck getTruck(int speed, int fuelConsumption, int range, int weightCapacity)
     {
         return new Truck(speed,fuelConsumption,range,weightCapacity);
     }

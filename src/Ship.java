@@ -11,7 +11,7 @@ public class Ship implements Vehicle {
         avgFuelConsumption=fuelConsumption;
         this.weightCapacity=weightCapacity;
     }
-    public static Vehicle getShip(int speed, int fuelConsumption, int range, int weightCapacity)
+    public static Ship getShip(int speed, int fuelConsumption, int range, int weightCapacity)
     {
         return new Ship(speed,fuelConsumption,range,weightCapacity);
     }

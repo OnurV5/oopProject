@@ -10,7 +10,7 @@ public class Airplane implements Vehicle{
         avgFuelConsumption=fuelConsumption;
         this.weightCapacity=weightCapacity;
     }
-    public static Vehicle getAirplane(int speed, int fuelConsumption, int range, int weightCapacity)
+    public static Airplane getAirplane(int speed, int fuelConsumption, int range, int weightCapacity)
     {
         return new Airplane(speed,fuelConsumption,range,weightCapacity);
     }
