@@ -2,11 +2,11 @@ import java.util.ArrayList;
 
 public class Main {
     public static TruckStore truckStore=new TruckStore();
-    static ArrayList<Truck> Trucks=new ArrayList<Truck>();
+    static ArrayList<VehicleClass> Trucks=new ArrayList<VehicleClass>();
     public static ShipStore shipStore=new ShipStore();
-    static ArrayList<Ship> Ships=new ArrayList<Ship>();
+    static ArrayList<VehicleClass> Ships=new ArrayList<VehicleClass>();
     public static AirplaneStore airplaneStore=new AirplaneStore();
-    static ArrayList<Airplane> Airplanes=new ArrayList<Airplane>();
+    static ArrayList<VehicleClass> Airplanes=new ArrayList<VehicleClass>();
 
     /*
     DEFAULT VEHİCLES:
@@ -19,20 +19,30 @@ public class Main {
     {
         for(int i=0;i<1623;i++)
         {
-            Truck a=truckStore.getVehicle(85,35,1000,23500);
+            VehicleClass a=truckStore.getVehicle(85,35,1000,23500);
             Trucks.add(a);
         }
         for(int i=0;i<104;i++)
         {
-            Ship a=shipStore.getVehicle(41,13540,1000,650000);
+            VehicleClass a=shipStore.getVehicle(41,13540,1000,650000);
             Ships.add(a);
         }
-        Airplane a=airplaneStore.getVehicle(930,330,1000,58000);
+        VehicleClass a=airplaneStore.getVehicle(930,330,1000,58000);
         Airplanes.add(a);
+    }
+    public static void writeVehicleListAsJSON(ArrayList<VehicleClass> list)
+    {
+
+        while(!list.isEmpty())
+        {
+            System.out.println(list.get(0).getSpeed());
+            list.remove(0);
+        }
     }
     public static void main(String[] Args)
     {
         initialize();
+        writeVehicleListAsJSON(Airplanes);
 
     }
 }

@@ -1,37 +1,14 @@
-public class Airplane implements Vehicle{
-    int avgSpeed;
-    int avgFuelConsumption;
-    int avgRange;
-    int weightCapacity;
-    private Airplane(int speed,int fuelConsumption,int range,int weightCapacity)
+public class Airplane extends VehicleClass implements Vehicle{
+    private Airplane(int speed, int fuelConsumption, int range, int weightCapacity)
     {
-        avgRange=range;
-        avgSpeed=speed;
-        avgFuelConsumption=fuelConsumption;
-        this.weightCapacity=weightCapacity;
+        setAvgRange(range);
+        setAvgSpeed(speed);
+        setAvgFuelConsumption(fuelConsumption);
+        setWeightCapacity(weightCapacity);
     }
     public static Airplane getAirplane(int speed, int fuelConsumption, int range, int weightCapacity)
     {
         return new Airplane(speed,fuelConsumption,range,weightCapacity);
     }
 
-    @Override
-    public int getSpeed() {
-        return avgSpeed;
-    }
-
-    @Override
-    public int getFuelConsumption() {
-        return avgFuelConsumption;
-    }
-
-    @Override
-    public int getWeightCapacity() {
-        return weightCapacity;
-    }
-
-    @Override
-    public int getRange() {
-        return avgRange;
-    }
 }

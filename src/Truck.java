@@ -1,37 +1,16 @@
-public class Truck implements Vehicle{
-    int avgSpeed;
-    int avgFuelConsumption;
-    int avgRange;
-    int weightCapacity;
-    private Truck(int speed,int fuelConsumption,int range,int weightCapacity)
+public class Truck extends VehicleClass implements Vehicle{
+
+    private Truck(int speed, int fuelConsumption, int range, int weightCapacity)
     {
-        avgRange=range;
-        avgSpeed=speed;
-        avgFuelConsumption=fuelConsumption;
-        this.weightCapacity=weightCapacity;
+        setAvgRange(range);
+        setAvgSpeed(speed);
+        setAvgFuelConsumption(fuelConsumption);
+        setWeightCapacity(weightCapacity);
     }
     public static Truck getTruck(int speed, int fuelConsumption, int range, int weightCapacity)
     {
         return new Truck(speed,fuelConsumption,range,weightCapacity);
     }
 
-    @Override
-    public int getSpeed() {
-        return avgSpeed;
-    }
 
-    @Override
-    public int getFuelConsumption() {
-        return avgFuelConsumption;
-    }
-
-    @Override
-    public int getWeightCapacity() {
-        return weightCapacity;
-    }
-
-    @Override
-    public int getRange() {
-        return avgRange;
-    }
 }
