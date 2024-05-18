@@ -1,4 +1,14 @@
 public class VehicleClass implements Vehicle {
+    private int ID;
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
     private int avgSpeed;
     private int avgFuelConsumption;
     private int avgRange;

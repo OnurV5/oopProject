@@ -1,0 +1,72 @@
+//Change this to initializeVehicle() function to randomize all 3 vehicle types.
+
+Random valueRandom=new Random();
+        Random signRandom=new Random();
+        int speedRange=0;
+        int fuelRange=0;
+        int avgRange=0;
+        int weightRange=0;
+        int value;
+        for(int i=0;i<1623;i++)
+        {
+            value=valueRandom.nextInt(16);
+            if(signRandom.nextInt(2)==0)
+                speedRange=-1*value;
+            else
+                speedRange=value;
+            value=valueRandom.nextInt(6);
+            if(signRandom.nextInt(2)==0)
+                fuelRange=-1*value;
+            else
+                fuelRange=value;
+            value=valueRandom.nextInt(401);
+            avgRange=100*(600+value)/(35+fuelRange);
+            value=valueRandom.nextInt(3501);
+            if(signRandom.nextInt(2)==0)
+                weightRange=-1*value;
+            else
+                weightRange=value;
+            VehicleClass a=truckStore.getVehicle(90+speedRange,35+fuelRange,avgRange,10500+weightRange,i+1);
+            Trucks.add(a);
+        }
+        for(int i=0;i<104;i++)
+        {
+            value=valueRandom.nextInt(6);
+            if(signRandom.nextInt(2)==0)
+                speedRange=-1*value;
+            else
+                speedRange=value;
+            value=valueRandom.nextInt(1042);
+            if(signRandom.nextInt(2)==0)
+                fuelRange=-1*value;
+            else
+                fuelRange=value;
+            value=valueRandom.nextInt(5501);
+            avgRange=(13000+value);
+            value=valueRandom.nextInt(20001);
+            if(signRandom.nextInt(2)==0)
+                weightRange=-1*value;
+            else
+                weightRange=value;
+            VehicleClass a=shipStore.getVehicle(41+speedRange,24700+fuelRange,avgRange,200000+weightRange,i+1);
+          Ships.add(a);
+        }
+        value=valueRandom.nextInt(41);
+        if(signRandom.nextInt(2)==0)
+            speedRange=-1*value;
+        else
+            speedRange=value;
+        value=valueRandom.nextInt(13);
+        if(signRandom.nextInt(2)==0)
+            fuelRange=-1*value;
+        else
+            fuelRange=value;
+        value=valueRandom.nextInt(301);
+        avgRange=(5435+value);
+        value=valueRandom.nextInt(5000);
+        if(signRandom.nextInt(2)==0)
+            weightRange=-1*value;
+        else
+            weightRange=value;
+        VehicleClass a=airplaneStore.getVehicle(836+speedRange,376+fuelRange,avgRange,63000+weightRange,1);
+        Airplanes.add(a);

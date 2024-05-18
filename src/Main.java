@@ -1,4 +1,16 @@
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonParser;
+import com.google.gson.reflect.TypeToken;
+import com.google.gson.stream.JsonReader;
+
+import java.io.*;
+import java.lang.reflect.Array;
+import java.lang.reflect.Type;
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.lang.reflect.Type;
+import java.util.Random;
 
 public class Main {
     public static TruckStore truckStore=new TruckStore();
@@ -15,34 +27,49 @@ public class Main {
     104xShips
     1xAirplane
     */
-    static public void initialize()
-    {
-        for(int i=0;i<1623;i++)
-        {
-            VehicleClass a=truckStore.getVehicle(85,35,1000,23500);
-            Trucks.add(a);
-        }
-        for(int i=0;i<104;i++)
-        {
-            VehicleClass a=shipStore.getVehicle(41,13540,1000,650000);
-            Ships.add(a);
-        }
-        VehicleClass a=airplaneStore.getVehicle(930,330,1000,58000);
-        Airplanes.add(a);
-    }
-    public static void writeVehicleListAsJSON(ArrayList<VehicleClass> list)
-    {
+    static public void initializeVehicles() throws FileNotFoundException {
+        Trucks=readTruckListfromJSON("./TrucksInfo");
+        Ships=readShipListfromJSON("./ShipsInfo");
+        Airplanes=readShipListfromJSON("./AirplanesInfo");
+        System.out.println("Vehicle Lists Initialized!");
 
-        while(!list.isEmpty())
-        {
-            System.out.println(list.get(0).getSpeed());
-            list.remove(0);
-        }
     }
-    public static void main(String[] Args)
-    {
-        initialize();
-        writeVehicleListAsJSON(Airplanes);
+    public static void writeVehicleListtoJSON(ArrayList<VehicleClass> list,String filePath) throws IOException {
+        Gson gson=new GsonBuilder().setPrettyPrinting().create();
+        File file=new File(filePath);
+        FileWriter fileWriter=new FileWriter(file);
+        gson.toJson(list,fileWriter);
+        fileWriter.close();
+    }
+    public static ArrayList<VehicleClass> readTruckListfromJSON(String filePath) throws FileNotFoundException {
+        Gson gson=new GsonBuilder().setPrettyPrinting().create();
+        File file=new File(filePath);
+        FileReader fileReader=new FileReader(file);
+        Type listType=new TypeToken<ArrayList<Truck>>(){}.getType();
+        return gson.fromJson(fileReader,listType);
+    }
+    public static ArrayList<VehicleClass> readShipListfromJSON(String filePath) throws FileNotFoundException {
+        Gson gson=new GsonBuilder().setPrettyPrinting().create();
+        File file=new File(filePath);
+        FileReader fileReader=new FileReader(file);
+        Type listType=new TypeToken<ArrayList<Ship>>(){}.getType();
+        return gson.fromJson(fileReader,listType);
+    }
+    public static ArrayList<VehicleClass> readAirplaneListfromJSON(String filePath) throws FileNotFoundException {
+        Gson gson=new GsonBuilder().setPrettyPrinting().create();
+        File file=new File(filePath);
+        FileReader fileReader=new FileReader(file);
+        Type listType=new TypeToken<ArrayList<Airplane>>(){}.getType();
+        return gson.fromJson(fileReader,listType);
+    }
+    public static void main(String[] Args) throws IOException {
+        initializeVehicles();
+        System.out.println("Done!");
+/*
+        writeVehicleListtoJSON(Trucks,"./TrucksInfo");
+        writeVehicleListtoJSON(Ships,"./ShipsInfo");
+        writeVehicleListtoJSON(Airplanes,"./AirplanesInfo");
 
+ */
     }
 }
