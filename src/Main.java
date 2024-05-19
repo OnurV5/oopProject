@@ -10,6 +10,7 @@ import java.lang.reflect.Type;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.lang.reflect.Type;
+import java.util.Iterator;
 import java.util.Random;
 
 public class Main {
@@ -19,6 +20,7 @@ public class Main {
     static ArrayList<VehicleClass> Ships=new ArrayList<VehicleClass>();
     public static AirplaneStore airplaneStore=new AirplaneStore();
     static ArrayList<VehicleClass> Airplanes=new ArrayList<VehicleClass>();
+    static ArrayList<Driver> Drivers = new ArrayList<>();
 
     /*
     DEFAULT VEHİCLES:
@@ -32,7 +34,24 @@ public class Main {
         Ships=readShipListfromJSON("./ShipsInfo");
         Airplanes=readShipListfromJSON("./AirplanesInfo");
         System.out.println("Vehicle Lists Initialized!");
-
+    }
+    public static void addDriver(ArrayList<Driver> Drivers, Driver driver) { Drivers.add(driver); }
+    public static void deleteDriver(ArrayList<Driver> Drivers, int driverID) {
+        Iterator<Driver> iterator = Drivers.iterator();
+        while (iterator.hasNext()) {
+            Driver driver = iterator.next();
+            if (driver.getDriverID() == driverID) {
+                iterator.remove();
+                return;
+            }
+        }
+    }
+    public static Driver searchDriver(ArrayList<Driver> Drivers, int driverID) {
+        for (Driver driver : Drivers) {
+            if (driver.getDriverID() == driverID)
+                return driver;
+        }
+        return null;
     }
     public static void writeVehicleListtoJSON(ArrayList<VehicleClass> list,String filePath) throws IOException {
         Gson gson=new GsonBuilder().setPrettyPrinting().create();
@@ -64,12 +83,14 @@ public class Main {
     }
     public static void main(String[] Args) throws IOException {
         initializeVehicles();
-        System.out.println("Done!");
-/*
+        VehicleClass current=Trucks.get(0);
+        System.out.println(current.getID()+": "+"Speed:"+current.getSpeed()+" Fuel Consumption per 100km:"+current.getFuelConsumption()+" Range:"+current.getRange()+" Weight Capacity:"+current.getWeightCapacity());
+
+
         writeVehicleListtoJSON(Trucks,"./TrucksInfo");
         writeVehicleListtoJSON(Ships,"./ShipsInfo");
         writeVehicleListtoJSON(Airplanes,"./AirplanesInfo");
 
- */
+
     }
 }

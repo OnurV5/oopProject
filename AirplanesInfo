@@ -1,9 +1,9 @@
 [
   {
-    "ID": 1,
-    "avgSpeed": 812,
-    "avgFuelConsumption": 375,
-    "avgRange": 5721,
-    "weightCapacity": 66794
+    "ID": "A1",
+    "avgSpeed": 852,
+    "avgFuelConsumption": 369,
+    "avgRange": 5666,
+    "weightCapacity": 59054
   }
 ]

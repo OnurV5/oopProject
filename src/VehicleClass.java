@@ -1,11 +1,11 @@
 public class VehicleClass implements Vehicle {
-    private int ID;
+    private String ID;
 
-    public int getID() {
+    public String getID() {
         return ID;
     }
 
-    public void setID(int ID) {
+    public void setID(String ID) {
         this.ID = ID;
     }
 

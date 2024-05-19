@@ -1,4 +1,4 @@
-//Change this to initializeVehicle() function to randomize all 3 vehicle types.
+//Change this to initializeVehicle() function in Main.java to randomize all 3 vehicle types.
 
 Random valueRandom=new Random();
         Random signRandom=new Random();

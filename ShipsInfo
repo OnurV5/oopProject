@@ -1,730 +1,730 @@
 [
   {
-    "ID": 1,
-    "avgSpeed": 38,
-    "avgFuelConsumption": 24242,
-    "avgRange": 13729,
-    "weightCapacity": 193686
-  },
-  {
-    "ID": 2,
-    "avgSpeed": 39,
-    "avgFuelConsumption": 23797,
-    "avgRange": 14040,
-    "weightCapacity": 193336
-  },
-  {
-    "ID": 3,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 24308,
-    "avgRange": 17382,
-    "weightCapacity": 213614
-  },
-  {
-    "ID": 4,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 24066,
-    "avgRange": 17626,
-    "weightCapacity": 190015
-  },
-  {
-    "ID": 5,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 24293,
-    "avgRange": 17218,
-    "weightCapacity": 208189
-  },
-  {
-    "ID": 6,
+    "ID": "S1",
     "avgSpeed": 41,
-    "avgFuelConsumption": 25494,
-    "avgRange": 13448,
-    "weightCapacity": 184052
+    "avgFuelConsumption": 24060,
+    "avgRange": 15483,
+    "weightCapacity": 211461
   },
   {
-    "ID": 7,
-    "avgSpeed": 44,
-    "avgFuelConsumption": 25163,
-    "avgRange": 15381,
-    "weightCapacity": 202554
-  },
-  {
-    "ID": 8,
-    "avgSpeed": 37,
-    "avgFuelConsumption": 23740,
-    "avgRange": 15298,
-    "weightCapacity": 206354
-  },
-  {
-    "ID": 9,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 24408,
-    "avgRange": 16379,
-    "weightCapacity": 198725
-  },
-  {
-    "ID": 10,
-    "avgSpeed": 44,
-    "avgFuelConsumption": 24254,
-    "avgRange": 16997,
-    "weightCapacity": 209733
-  },
-  {
-    "ID": 11,
+    "ID": "S2",
     "avgSpeed": 41,
-    "avgFuelConsumption": 24241,
-    "avgRange": 14207,
-    "weightCapacity": 196289
+    "avgFuelConsumption": 24292,
+    "avgRange": 16482,
+    "weightCapacity": 209929
   },
   {
-    "ID": 12,
-    "avgSpeed": 44,
-    "avgFuelConsumption": 24372,
-    "avgRange": 14570,
-    "weightCapacity": 211873
-  },
-  {
-    "ID": 13,
-    "avgSpeed": 43,
-    "avgFuelConsumption": 23860,
-    "avgRange": 15347,
-    "weightCapacity": 181058
-  },
-  {
-    "ID": 14,
-    "avgSpeed": 38,
-    "avgFuelConsumption": 24450,
-    "avgRange": 15879,
-    "weightCapacity": 184938
-  },
-  {
-    "ID": 15,
-    "avgSpeed": 38,
-    "avgFuelConsumption": 25426,
-    "avgRange": 16602,
-    "weightCapacity": 201720
-  },
-  {
-    "ID": 16,
-    "avgSpeed": 42,
-    "avgFuelConsumption": 24394,
-    "avgRange": 17398,
-    "weightCapacity": 191265
-  },
-  {
-    "ID": 17,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 25671,
-    "avgRange": 16952,
-    "weightCapacity": 188905
-  },
-  {
-    "ID": 18,
-    "avgSpeed": 42,
-    "avgFuelConsumption": 23781,
-    "avgRange": 18066,
-    "weightCapacity": 184096
-  },
-  {
-    "ID": 19,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 24206,
-    "avgRange": 15334,
-    "weightCapacity": 216244
-  },
-  {
-    "ID": 20,
-    "avgSpeed": 44,
-    "avgFuelConsumption": 25731,
-    "avgRange": 17879,
-    "weightCapacity": 184066
-  },
-  {
-    "ID": 21,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 23678,
-    "avgRange": 16442,
-    "weightCapacity": 211874
-  },
-  {
-    "ID": 22,
-    "avgSpeed": 39,
-    "avgFuelConsumption": 25659,
-    "avgRange": 18050,
-    "weightCapacity": 197026
-  },
-  {
-    "ID": 23,
-    "avgSpeed": 37,
-    "avgFuelConsumption": 24521,
-    "avgRange": 13626,
-    "weightCapacity": 219467
-  },
-  {
-    "ID": 24,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 25133,
-    "avgRange": 17951,
-    "weightCapacity": 185546
-  },
-  {
-    "ID": 25,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 23903,
-    "avgRange": 13709,
-    "weightCapacity": 189881
-  },
-  {
-    "ID": 26,
-    "avgSpeed": 42,
-    "avgFuelConsumption": 25197,
-    "avgRange": 13081,
-    "weightCapacity": 183851
-  },
-  {
-    "ID": 27,
-    "avgSpeed": 43,
-    "avgFuelConsumption": 24931,
-    "avgRange": 17517,
-    "weightCapacity": 211597
-  },
-  {
-    "ID": 28,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 24111,
-    "avgRange": 17428,
-    "weightCapacity": 181212
-  },
-  {
-    "ID": 29,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 25686,
-    "avgRange": 13065,
-    "weightCapacity": 183601
-  },
-  {
-    "ID": 30,
-    "avgSpeed": 46,
-    "avgFuelConsumption": 23942,
-    "avgRange": 15339,
-    "weightCapacity": 215400
-  },
-  {
-    "ID": 31,
-    "avgSpeed": 44,
-    "avgFuelConsumption": 25703,
-    "avgRange": 17207,
-    "weightCapacity": 205035
-  },
-  {
-    "ID": 32,
-    "avgSpeed": 46,
-    "avgFuelConsumption": 24559,
-    "avgRange": 13396,
-    "weightCapacity": 183502
-  },
-  {
-    "ID": 33,
-    "avgSpeed": 36,
-    "avgFuelConsumption": 24925,
-    "avgRange": 16876,
-    "weightCapacity": 204419
-  },
-  {
-    "ID": 34,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 25428,
-    "avgRange": 16828,
-    "weightCapacity": 209140
-  },
-  {
-    "ID": 35,
-    "avgSpeed": 38,
-    "avgFuelConsumption": 24896,
-    "avgRange": 14162,
-    "weightCapacity": 180566
-  },
-  {
-    "ID": 36,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 25272,
-    "avgRange": 17322,
-    "weightCapacity": 199346
-  },
-  {
-    "ID": 37,
+    "ID": "S3",
     "avgSpeed": 40,
-    "avgFuelConsumption": 24363,
-    "avgRange": 17123,
-    "weightCapacity": 216181
+    "avgFuelConsumption": 24640,
+    "avgRange": 13996,
+    "weightCapacity": 211032
   },
   {
-    "ID": 38,
+    "ID": "S4",
+    "avgSpeed": 40,
+    "avgFuelConsumption": 25047,
+    "avgRange": 13299,
+    "weightCapacity": 203604
+  },
+  {
+    "ID": "S5",
     "avgSpeed": 41,
-    "avgFuelConsumption": 24027,
-    "avgRange": 16082,
-    "weightCapacity": 192244
+    "avgFuelConsumption": 24780,
+    "avgRange": 18266,
+    "weightCapacity": 206200
   },
   {
-    "ID": 39,
-    "avgSpeed": 42,
-    "avgFuelConsumption": 23823,
-    "avgRange": 16748,
-    "weightCapacity": 181441
-  },
-  {
-    "ID": 40,
-    "avgSpeed": 39,
-    "avgFuelConsumption": 24822,
-    "avgRange": 14125,
-    "weightCapacity": 186626
-  },
-  {
-    "ID": 41,
+    "ID": "S6",
     "avgSpeed": 37,
-    "avgFuelConsumption": 24065,
-    "avgRange": 17382,
-    "weightCapacity": 217314
+    "avgFuelConsumption": 25438,
+    "avgRange": 13757,
+    "weightCapacity": 184882
   },
   {
-    "ID": 42,
+    "ID": "S7",
     "avgSpeed": 36,
-    "avgFuelConsumption": 23972,
-    "avgRange": 17987,
-    "weightCapacity": 203535
+    "avgFuelConsumption": 24679,
+    "avgRange": 16661,
+    "weightCapacity": 187283
   },
   {
-    "ID": 43,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 23674,
-    "avgRange": 13454,
-    "weightCapacity": 208592
+    "ID": "S8",
+    "avgSpeed": 39,
+    "avgFuelConsumption": 25707,
+    "avgRange": 17791,
+    "weightCapacity": 212849
   },
   {
-    "ID": 44,
-    "avgSpeed": 44,
-    "avgFuelConsumption": 23970,
-    "avgRange": 14136,
-    "weightCapacity": 183301
+    "ID": "S9",
+    "avgSpeed": 38,
+    "avgFuelConsumption": 25184,
+    "avgRange": 13622,
+    "weightCapacity": 198904
   },
   {
-    "ID": 45,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 24996,
-    "avgRange": 17357,
-    "weightCapacity": 204281
-  },
-  {
-    "ID": 46,
-    "avgSpeed": 42,
+    "ID": "S10",
+    "avgSpeed": 36,
     "avgFuelConsumption": 25150,
-    "avgRange": 14280,
-    "weightCapacity": 189862
+    "avgRange": 18031,
+    "weightCapacity": 202344
   },
   {
-    "ID": 47,
-    "avgSpeed": 39,
-    "avgFuelConsumption": 24268,
-    "avgRange": 17444,
-    "weightCapacity": 195607
+    "ID": "S11",
+    "avgSpeed": 44,
+    "avgFuelConsumption": 24391,
+    "avgRange": 18175,
+    "weightCapacity": 180668
   },
   {
-    "ID": 48,
-    "avgSpeed": 40,
-    "avgFuelConsumption": 25660,
-    "avgRange": 13992,
-    "weightCapacity": 199566
+    "ID": "S12",
+    "avgSpeed": 43,
+    "avgFuelConsumption": 24312,
+    "avgRange": 14458,
+    "weightCapacity": 212272
   },
   {
-    "ID": 49,
+    "ID": "S13",
+    "avgSpeed": 37,
+    "avgFuelConsumption": 23840,
+    "avgRange": 13595,
+    "weightCapacity": 185011
+  },
+  {
+    "ID": "S14",
     "avgSpeed": 42,
-    "avgFuelConsumption": 24622,
-    "avgRange": 13699,
-    "weightCapacity": 182435
-  },
-  {
-    "ID": 50,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 25499,
-    "avgRange": 18242,
-    "weightCapacity": 183020
-  },
-  {
-    "ID": 51,
-    "avgSpeed": 43,
-    "avgFuelConsumption": 25117,
-    "avgRange": 13836,
-    "weightCapacity": 186665
-  },
-  {
-    "ID": 52,
-    "avgSpeed": 36,
-    "avgFuelConsumption": 24515,
-    "avgRange": 16457,
-    "weightCapacity": 184037
-  },
-  {
-    "ID": 53,
-    "avgSpeed": 37,
-    "avgFuelConsumption": 25364,
-    "avgRange": 14650,
-    "weightCapacity": 210173
-  },
-  {
-    "ID": 54,
-    "avgSpeed": 38,
-    "avgFuelConsumption": 24389,
-    "avgRange": 14779,
-    "weightCapacity": 182494
-  },
-  {
-    "ID": 55,
-    "avgSpeed": 44,
-    "avgFuelConsumption": 24021,
-    "avgRange": 17331,
-    "weightCapacity": 186755
-  },
-  {
-    "ID": 56,
-    "avgSpeed": 37,
-    "avgFuelConsumption": 25377,
-    "avgRange": 17414,
-    "weightCapacity": 213338
-  },
-  {
-    "ID": 57,
-    "avgSpeed": 44,
-    "avgFuelConsumption": 24536,
-    "avgRange": 16255,
-    "weightCapacity": 219798
-  },
-  {
-    "ID": 58,
-    "avgSpeed": 43,
-    "avgFuelConsumption": 25055,
-    "avgRange": 13090,
-    "weightCapacity": 201370
-  },
-  {
-    "ID": 59,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 25434,
-    "avgRange": 18047,
-    "weightCapacity": 185226
-  },
-  {
-    "ID": 60,
-    "avgSpeed": 38,
-    "avgFuelConsumption": 23833,
-    "avgRange": 13697,
-    "weightCapacity": 181645
-  },
-  {
-    "ID": 61,
-    "avgSpeed": 38,
-    "avgFuelConsumption": 23882,
-    "avgRange": 14267,
-    "weightCapacity": 190926
-  },
-  {
-    "ID": 62,
-    "avgSpeed": 37,
-    "avgFuelConsumption": 25102,
-    "avgRange": 16979,
-    "weightCapacity": 187945
-  },
-  {
-    "ID": 63,
-    "avgSpeed": 46,
-    "avgFuelConsumption": 25118,
-    "avgRange": 16538,
-    "weightCapacity": 180186
-  },
-  {
-    "ID": 64,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 24650,
-    "avgRange": 14159,
-    "weightCapacity": 191485
-  },
-  {
-    "ID": 65,
-    "avgSpeed": 40,
-    "avgFuelConsumption": 25041,
-    "avgRange": 18334,
-    "weightCapacity": 180316
-  },
-  {
-    "ID": 66,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 24639,
-    "avgRange": 15537,
-    "weightCapacity": 204833
-  },
-  {
-    "ID": 67,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 24194,
-    "avgRange": 15024,
-    "weightCapacity": 214452
-  },
-  {
-    "ID": 68,
-    "avgSpeed": 46,
-    "avgFuelConsumption": 24185,
-    "avgRange": 14753,
-    "weightCapacity": 205752
-  },
-  {
-    "ID": 69,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 24564,
-    "avgRange": 15789,
-    "weightCapacity": 181953
-  },
-  {
-    "ID": 70,
-    "avgSpeed": 40,
-    "avgFuelConsumption": 24656,
-    "avgRange": 14033,
-    "weightCapacity": 203119
-  },
-  {
-    "ID": 71,
-    "avgSpeed": 37,
-    "avgFuelConsumption": 24349,
-    "avgRange": 14598,
-    "weightCapacity": 191700
-  },
-  {
-    "ID": 72,
-    "avgSpeed": 39,
-    "avgFuelConsumption": 24949,
-    "avgRange": 16192,
-    "weightCapacity": 197257
-  },
-  {
-    "ID": 73,
-    "avgSpeed": 46,
-    "avgFuelConsumption": 25284,
-    "avgRange": 17260,
-    "weightCapacity": 183307
-  },
-  {
-    "ID": 74,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 25228,
-    "avgRange": 15330,
-    "weightCapacity": 217641
-  },
-  {
-    "ID": 75,
-    "avgSpeed": 37,
-    "avgFuelConsumption": 24128,
-    "avgRange": 18232,
-    "weightCapacity": 199218
-  },
-  {
-    "ID": 76,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 24013,
-    "avgRange": 17192,
-    "weightCapacity": 218588
-  },
-  {
-    "ID": 77,
-    "avgSpeed": 39,
-    "avgFuelConsumption": 24643,
-    "avgRange": 17385,
-    "weightCapacity": 189307
-  },
-  {
-    "ID": 78,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 24447,
-    "avgRange": 17288,
-    "weightCapacity": 192825
-  },
-  {
-    "ID": 79,
-    "avgSpeed": 36,
-    "avgFuelConsumption": 23857,
-    "avgRange": 13808,
-    "weightCapacity": 196796
-  },
-  {
-    "ID": 80,
-    "avgSpeed": 39,
-    "avgFuelConsumption": 25183,
-    "avgRange": 13668,
-    "weightCapacity": 184691
-  },
-  {
-    "ID": 81,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 24499,
-    "avgRange": 17704,
-    "weightCapacity": 192104
-  },
-  {
-    "ID": 82,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 25630,
-    "avgRange": 13220,
-    "weightCapacity": 195397
-  },
-  {
-    "ID": 83,
-    "avgSpeed": 38,
-    "avgFuelConsumption": 24395,
-    "avgRange": 15803,
-    "weightCapacity": 217874
-  },
-  {
-    "ID": 84,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 25078,
-    "avgRange": 16717,
-    "weightCapacity": 186001
-  },
-  {
-    "ID": 85,
-    "avgSpeed": 42,
-    "avgFuelConsumption": 23789,
-    "avgRange": 16259,
-    "weightCapacity": 211170
-  },
-  {
-    "ID": 86,
-    "avgSpeed": 44,
-    "avgFuelConsumption": 24614,
-    "avgRange": 18171,
-    "weightCapacity": 186260
-  },
-  {
-    "ID": 87,
-    "avgSpeed": 46,
-    "avgFuelConsumption": 24287,
-    "avgRange": 17031,
-    "weightCapacity": 193413
-  },
-  {
-    "ID": 88,
-    "avgSpeed": 37,
-    "avgFuelConsumption": 23861,
-    "avgRange": 16027,
-    "weightCapacity": 219046
-  },
-  {
-    "ID": 89,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 23764,
-    "avgRange": 17729,
-    "weightCapacity": 186017
-  },
-  {
-    "ID": 90,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 25078,
-    "avgRange": 13086,
-    "weightCapacity": 193479
-  },
-  {
-    "ID": 91,
-    "avgSpeed": 37,
-    "avgFuelConsumption": 24946,
-    "avgRange": 17526,
-    "weightCapacity": 195584
-  },
-  {
-    "ID": 92,
-    "avgSpeed": 44,
-    "avgFuelConsumption": 25547,
-    "avgRange": 17473,
-    "weightCapacity": 214584
-  },
-  {
-    "ID": 93,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 24707,
-    "avgRange": 18413,
-    "weightCapacity": 212847
-  },
-  {
-    "ID": 94,
-    "avgSpeed": 46,
-    "avgFuelConsumption": 25459,
-    "avgRange": 16230,
-    "weightCapacity": 205323
-  },
-  {
-    "ID": 95,
-    "avgSpeed": 43,
-    "avgFuelConsumption": 24606,
-    "avgRange": 18306,
-    "weightCapacity": 210855
-  },
-  {
-    "ID": 96,
-    "avgSpeed": 41,
-    "avgFuelConsumption": 25151,
-    "avgRange": 13593,
-    "weightCapacity": 191150
-  },
-  {
-    "ID": 97,
-    "avgSpeed": 39,
-    "avgFuelConsumption": 25468,
-    "avgRange": 13568,
-    "weightCapacity": 199482
-  },
-  {
-    "ID": 98,
-    "avgSpeed": 37,
-    "avgFuelConsumption": 25137,
-    "avgRange": 17088,
-    "weightCapacity": 191889
-  },
-  {
-    "ID": 99,
-    "avgSpeed": 43,
-    "avgFuelConsumption": 25672,
-    "avgRange": 16043,
-    "weightCapacity": 200084
-  },
-  {
-    "ID": 100,
-    "avgSpeed": 45,
-    "avgFuelConsumption": 24974,
+    "avgFuelConsumption": 24430,
     "avgRange": 17812,
-    "weightCapacity": 195251
+    "weightCapacity": 203891
   },
   {
-    "ID": 101,
+    "ID": "S15",
     "avgSpeed": 41,
-    "avgFuelConsumption": 25019,
-    "avgRange": 13333,
-    "weightCapacity": 189760
+    "avgFuelConsumption": 25617,
+    "avgRange": 13451,
+    "weightCapacity": 209858
   },
   {
-    "ID": 102,
+    "ID": "S16",
     "avgSpeed": 43,
-    "avgFuelConsumption": 25660,
-    "avgRange": 14176,
-    "weightCapacity": 198105
+    "avgFuelConsumption": 24359,
+    "avgRange": 17051,
+    "weightCapacity": 205820
   },
   {
-    "ID": 103,
+    "ID": "S17",
+    "avgSpeed": 36,
+    "avgFuelConsumption": 25062,
+    "avgRange": 15608,
+    "weightCapacity": 194891
+  },
+  {
+    "ID": "S18",
     "avgSpeed": 38,
-    "avgFuelConsumption": 24422,
-    "avgRange": 14702,
-    "weightCapacity": 214287
+    "avgFuelConsumption": 25701,
+    "avgRange": 17039,
+    "weightCapacity": 194997
   },
   {
-    "ID": 104,
+    "ID": "S19",
     "avgSpeed": 37,
-    "avgFuelConsumption": 24330,
-    "avgRange": 18280,
-    "weightCapacity": 195822
+    "avgFuelConsumption": 25478,
+    "avgRange": 16889,
+    "weightCapacity": 197337
+  },
+  {
+    "ID": "S20",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 25528,
+    "avgRange": 14290,
+    "weightCapacity": 206931
+  },
+  {
+    "ID": "S21",
+    "avgSpeed": 36,
+    "avgFuelConsumption": 25400,
+    "avgRange": 14981,
+    "weightCapacity": 214206
+  },
+  {
+    "ID": "S22",
+    "avgSpeed": 46,
+    "avgFuelConsumption": 25527,
+    "avgRange": 17842,
+    "weightCapacity": 208163
+  },
+  {
+    "ID": "S23",
+    "avgSpeed": 40,
+    "avgFuelConsumption": 25733,
+    "avgRange": 17365,
+    "weightCapacity": 210448
+  },
+  {
+    "ID": "S24",
+    "avgSpeed": 39,
+    "avgFuelConsumption": 24992,
+    "avgRange": 14777,
+    "weightCapacity": 214703
+  },
+  {
+    "ID": "S25",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 24410,
+    "avgRange": 14232,
+    "weightCapacity": 194791
+  },
+  {
+    "ID": "S26",
+    "avgSpeed": 42,
+    "avgFuelConsumption": 24927,
+    "avgRange": 16384,
+    "weightCapacity": 213024
+  },
+  {
+    "ID": "S27",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 24994,
+    "avgRange": 15705,
+    "weightCapacity": 193627
+  },
+  {
+    "ID": "S28",
+    "avgSpeed": 39,
+    "avgFuelConsumption": 24813,
+    "avgRange": 15201,
+    "weightCapacity": 206318
+  },
+  {
+    "ID": "S29",
+    "avgSpeed": 39,
+    "avgFuelConsumption": 24379,
+    "avgRange": 17403,
+    "weightCapacity": 196547
+  },
+  {
+    "ID": "S30",
+    "avgSpeed": 40,
+    "avgFuelConsumption": 24377,
+    "avgRange": 15694,
+    "weightCapacity": 213883
+  },
+  {
+    "ID": "S31",
+    "avgSpeed": 44,
+    "avgFuelConsumption": 25230,
+    "avgRange": 13568,
+    "weightCapacity": 197282
+  },
+  {
+    "ID": "S32",
+    "avgSpeed": 44,
+    "avgFuelConsumption": 23930,
+    "avgRange": 16773,
+    "weightCapacity": 200101
+  },
+  {
+    "ID": "S33",
+    "avgSpeed": 42,
+    "avgFuelConsumption": 24643,
+    "avgRange": 17281,
+    "weightCapacity": 213828
+  },
+  {
+    "ID": "S34",
+    "avgSpeed": 39,
+    "avgFuelConsumption": 23754,
+    "avgRange": 17533,
+    "weightCapacity": 219194
+  },
+  {
+    "ID": "S35",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 25125,
+    "avgRange": 15403,
+    "weightCapacity": 196209
+  },
+  {
+    "ID": "S36",
+    "avgSpeed": 42,
+    "avgFuelConsumption": 24128,
+    "avgRange": 17107,
+    "weightCapacity": 204359
+  },
+  {
+    "ID": "S37",
+    "avgSpeed": 38,
+    "avgFuelConsumption": 24031,
+    "avgRange": 16641,
+    "weightCapacity": 190617
+  },
+  {
+    "ID": "S38",
+    "avgSpeed": 38,
+    "avgFuelConsumption": 24608,
+    "avgRange": 13092,
+    "weightCapacity": 199170
+  },
+  {
+    "ID": "S39",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 24547,
+    "avgRange": 15141,
+    "weightCapacity": 186247
+  },
+  {
+    "ID": "S40",
+    "avgSpeed": 44,
+    "avgFuelConsumption": 24804,
+    "avgRange": 16007,
+    "weightCapacity": 191997
+  },
+  {
+    "ID": "S41",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 24984,
+    "avgRange": 16020,
+    "weightCapacity": 215253
+  },
+  {
+    "ID": "S42",
+    "avgSpeed": 36,
+    "avgFuelConsumption": 23940,
+    "avgRange": 13218,
+    "weightCapacity": 197519
+  },
+  {
+    "ID": "S43",
+    "avgSpeed": 40,
+    "avgFuelConsumption": 24242,
+    "avgRange": 13526,
+    "weightCapacity": 187071
+  },
+  {
+    "ID": "S44",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 24191,
+    "avgRange": 14166,
+    "weightCapacity": 204173
+  },
+  {
+    "ID": "S45",
+    "avgSpeed": 38,
+    "avgFuelConsumption": 24712,
+    "avgRange": 14353,
+    "weightCapacity": 206540
+  },
+  {
+    "ID": "S46",
+    "avgSpeed": 37,
+    "avgFuelConsumption": 24253,
+    "avgRange": 15473,
+    "weightCapacity": 202089
+  },
+  {
+    "ID": "S47",
+    "avgSpeed": 38,
+    "avgFuelConsumption": 23685,
+    "avgRange": 13960,
+    "weightCapacity": 187177
+  },
+  {
+    "ID": "S48",
+    "avgSpeed": 38,
+    "avgFuelConsumption": 24133,
+    "avgRange": 17362,
+    "weightCapacity": 214243
+  },
+  {
+    "ID": "S49",
+    "avgSpeed": 40,
+    "avgFuelConsumption": 25071,
+    "avgRange": 17845,
+    "weightCapacity": 197613
+  },
+  {
+    "ID": "S50",
+    "avgSpeed": 42,
+    "avgFuelConsumption": 24093,
+    "avgRange": 17077,
+    "weightCapacity": 199720
+  },
+  {
+    "ID": "S51",
+    "avgSpeed": 42,
+    "avgFuelConsumption": 24042,
+    "avgRange": 16889,
+    "weightCapacity": 184757
+  },
+  {
+    "ID": "S52",
+    "avgSpeed": 45,
+    "avgFuelConsumption": 25660,
+    "avgRange": 15303,
+    "weightCapacity": 193092
+  },
+  {
+    "ID": "S53",
+    "avgSpeed": 46,
+    "avgFuelConsumption": 24560,
+    "avgRange": 16480,
+    "weightCapacity": 193269
+  },
+  {
+    "ID": "S54",
+    "avgSpeed": 39,
+    "avgFuelConsumption": 25050,
+    "avgRange": 14775,
+    "weightCapacity": 203883
+  },
+  {
+    "ID": "S55",
+    "avgSpeed": 43,
+    "avgFuelConsumption": 25620,
+    "avgRange": 13982,
+    "weightCapacity": 181446
+  },
+  {
+    "ID": "S56",
+    "avgSpeed": 46,
+    "avgFuelConsumption": 23691,
+    "avgRange": 16340,
+    "weightCapacity": 202773
+  },
+  {
+    "ID": "S57",
+    "avgSpeed": 37,
+    "avgFuelConsumption": 25609,
+    "avgRange": 17010,
+    "weightCapacity": 187374
+  },
+  {
+    "ID": "S58",
+    "avgSpeed": 37,
+    "avgFuelConsumption": 25656,
+    "avgRange": 16692,
+    "weightCapacity": 196778
+  },
+  {
+    "ID": "S59",
+    "avgSpeed": 42,
+    "avgFuelConsumption": 24646,
+    "avgRange": 15093,
+    "weightCapacity": 182355
+  },
+  {
+    "ID": "S60",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 25031,
+    "avgRange": 17426,
+    "weightCapacity": 205881
+  },
+  {
+    "ID": "S61",
+    "avgSpeed": 42,
+    "avgFuelConsumption": 25557,
+    "avgRange": 16931,
+    "weightCapacity": 207846
+  },
+  {
+    "ID": "S62",
+    "avgSpeed": 36,
+    "avgFuelConsumption": 25490,
+    "avgRange": 18171,
+    "weightCapacity": 193064
+  },
+  {
+    "ID": "S63",
+    "avgSpeed": 45,
+    "avgFuelConsumption": 24733,
+    "avgRange": 13286,
+    "weightCapacity": 189399
+  },
+  {
+    "ID": "S64",
+    "avgSpeed": 39,
+    "avgFuelConsumption": 25664,
+    "avgRange": 18433,
+    "weightCapacity": 203526
+  },
+  {
+    "ID": "S65",
+    "avgSpeed": 37,
+    "avgFuelConsumption": 25555,
+    "avgRange": 14053,
+    "weightCapacity": 194149
+  },
+  {
+    "ID": "S66",
+    "avgSpeed": 45,
+    "avgFuelConsumption": 24753,
+    "avgRange": 17404,
+    "weightCapacity": 218371
+  },
+  {
+    "ID": "S67",
+    "avgSpeed": 36,
+    "avgFuelConsumption": 25085,
+    "avgRange": 14824,
+    "weightCapacity": 193644
+  },
+  {
+    "ID": "S68",
+    "avgSpeed": 39,
+    "avgFuelConsumption": 24300,
+    "avgRange": 17730,
+    "weightCapacity": 214630
+  },
+  {
+    "ID": "S69",
+    "avgSpeed": 36,
+    "avgFuelConsumption": 24484,
+    "avgRange": 16198,
+    "weightCapacity": 193894
+  },
+  {
+    "ID": "S70",
+    "avgSpeed": 39,
+    "avgFuelConsumption": 25078,
+    "avgRange": 17636,
+    "weightCapacity": 206800
+  },
+  {
+    "ID": "S71",
+    "avgSpeed": 44,
+    "avgFuelConsumption": 23843,
+    "avgRange": 16453,
+    "weightCapacity": 214920
+  },
+  {
+    "ID": "S72",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 25182,
+    "avgRange": 13478,
+    "weightCapacity": 218030
+  },
+  {
+    "ID": "S73",
+    "avgSpeed": 37,
+    "avgFuelConsumption": 25530,
+    "avgRange": 13873,
+    "weightCapacity": 196111
+  },
+  {
+    "ID": "S74",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 24904,
+    "avgRange": 18122,
+    "weightCapacity": 200579
+  },
+  {
+    "ID": "S75",
+    "avgSpeed": 38,
+    "avgFuelConsumption": 24263,
+    "avgRange": 15232,
+    "weightCapacity": 216552
+  },
+  {
+    "ID": "S76",
+    "avgSpeed": 43,
+    "avgFuelConsumption": 25571,
+    "avgRange": 17214,
+    "weightCapacity": 197416
+  },
+  {
+    "ID": "S77",
+    "avgSpeed": 42,
+    "avgFuelConsumption": 23927,
+    "avgRange": 16497,
+    "weightCapacity": 195955
+  },
+  {
+    "ID": "S78",
+    "avgSpeed": 44,
+    "avgFuelConsumption": 24941,
+    "avgRange": 17981,
+    "weightCapacity": 180109
+  },
+  {
+    "ID": "S79",
+    "avgSpeed": 46,
+    "avgFuelConsumption": 24273,
+    "avgRange": 17000,
+    "weightCapacity": 199935
+  },
+  {
+    "ID": "S80",
+    "avgSpeed": 37,
+    "avgFuelConsumption": 25039,
+    "avgRange": 15788,
+    "weightCapacity": 193049
+  },
+  {
+    "ID": "S81",
+    "avgSpeed": 46,
+    "avgFuelConsumption": 24301,
+    "avgRange": 15430,
+    "weightCapacity": 212076
+  },
+  {
+    "ID": "S82",
+    "avgSpeed": 44,
+    "avgFuelConsumption": 25560,
+    "avgRange": 17406,
+    "weightCapacity": 209431
+  },
+  {
+    "ID": "S83",
+    "avgSpeed": 42,
+    "avgFuelConsumption": 24019,
+    "avgRange": 17624,
+    "weightCapacity": 215258
+  },
+  {
+    "ID": "S84",
+    "avgSpeed": 44,
+    "avgFuelConsumption": 24076,
+    "avgRange": 15995,
+    "weightCapacity": 199059
+  },
+  {
+    "ID": "S85",
+    "avgSpeed": 40,
+    "avgFuelConsumption": 25403,
+    "avgRange": 14515,
+    "weightCapacity": 213527
+  },
+  {
+    "ID": "S86",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 25214,
+    "avgRange": 14652,
+    "weightCapacity": 202909
+  },
+  {
+    "ID": "S87",
+    "avgSpeed": 45,
+    "avgFuelConsumption": 25472,
+    "avgRange": 13259,
+    "weightCapacity": 219637
+  },
+  {
+    "ID": "S88",
+    "avgSpeed": 42,
+    "avgFuelConsumption": 24644,
+    "avgRange": 14554,
+    "weightCapacity": 216552
+  },
+  {
+    "ID": "S89",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 25335,
+    "avgRange": 15172,
+    "weightCapacity": 207396
+  },
+  {
+    "ID": "S90",
+    "avgSpeed": 37,
+    "avgFuelConsumption": 25344,
+    "avgRange": 16852,
+    "weightCapacity": 183338
+  },
+  {
+    "ID": "S91",
+    "avgSpeed": 38,
+    "avgFuelConsumption": 24292,
+    "avgRange": 13705,
+    "weightCapacity": 182761
+  },
+  {
+    "ID": "S92",
+    "avgSpeed": 46,
+    "avgFuelConsumption": 24244,
+    "avgRange": 17546,
+    "weightCapacity": 191292
+  },
+  {
+    "ID": "S93",
+    "avgSpeed": 46,
+    "avgFuelConsumption": 24839,
+    "avgRange": 15573,
+    "weightCapacity": 212656
+  },
+  {
+    "ID": "S94",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 24151,
+    "avgRange": 16439,
+    "weightCapacity": 205885
+  },
+  {
+    "ID": "S95",
+    "avgSpeed": 42,
+    "avgFuelConsumption": 25470,
+    "avgRange": 13909,
+    "weightCapacity": 189599
+  },
+  {
+    "ID": "S96",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 24603,
+    "avgRange": 17366,
+    "weightCapacity": 215907
+  },
+  {
+    "ID": "S97",
+    "avgSpeed": 38,
+    "avgFuelConsumption": 23696,
+    "avgRange": 14281,
+    "weightCapacity": 207350
+  },
+  {
+    "ID": "S98",
+    "avgSpeed": 44,
+    "avgFuelConsumption": 25592,
+    "avgRange": 13503,
+    "weightCapacity": 181752
+  },
+  {
+    "ID": "S99",
+    "avgSpeed": 44,
+    "avgFuelConsumption": 25037,
+    "avgRange": 17937,
+    "weightCapacity": 191908
+  },
+  {
+    "ID": "S100",
+    "avgSpeed": 36,
+    "avgFuelConsumption": 24617,
+    "avgRange": 15635,
+    "weightCapacity": 185008
+  },
+  {
+    "ID": "S101",
+    "avgSpeed": 44,
+    "avgFuelConsumption": 24184,
+    "avgRange": 17180,
+    "weightCapacity": 198101
+  },
+  {
+    "ID": "S102",
+    "avgSpeed": 41,
+    "avgFuelConsumption": 24215,
+    "avgRange": 18113,
+    "weightCapacity": 193962
+  },
+  {
+    "ID": "S103",
+    "avgSpeed": 46,
+    "avgFuelConsumption": 24240,
+    "avgRange": 17975,
+    "weightCapacity": 211918
+  },
+  {
+    "ID": "S104",
+    "avgSpeed": 45,
+    "avgFuelConsumption": 24854,
+    "avgRange": 14835,
+    "weightCapacity": 206986
   }
 ]

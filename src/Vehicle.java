@@ -3,5 +3,5 @@ public interface Vehicle { //This class uses abstract factory design pattern to 
     public int getFuelConsumption();
     public int getWeightCapacity();
     public int getRange();
-    public int getID();
+    public String getID();
 }
