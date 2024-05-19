@@ -32,8 +32,9 @@ public class Main {
     static public void initializeVehicles() throws FileNotFoundException {
         Trucks=readTruckListfromJSON("./TrucksInfo");
         Ships=readShipListfromJSON("./ShipsInfo");
-        Airplanes=readShipListfromJSON("./AirplanesInfo");
-        System.out.println("Vehicle Lists Initialized!");
+        Airplanes=readAirplaneListfromJSON("./AirplanesInfo");
+        Drivers=readDriverListfromJSON("./DriversInfo");
+        System.out.println("Vehicles and Drivers Initialized!");
     }
     public static void addDriver(ArrayList<Driver> Drivers, Driver driver) { Drivers.add(driver); }
     public static void deleteDriver(ArrayList<Driver> Drivers, int driverID) {
@@ -60,6 +61,20 @@ public class Main {
         gson.toJson(list,fileWriter);
         fileWriter.close();
     }
+    public static void writeDriverListtoJSON(ArrayList<Driver> list,String filePath) throws IOException {
+        Gson gson=new GsonBuilder().setPrettyPrinting().create();
+        File file=new File(filePath);
+        FileWriter fileWriter=new FileWriter(file);
+        gson.toJson(list,fileWriter);
+        fileWriter.close();
+    }
+    public static ArrayList<Driver> readDriverListfromJSON(String filePath) throws FileNotFoundException {
+        Gson gson=new GsonBuilder().setPrettyPrinting().create();
+        File file=new File(filePath);
+        FileReader fileReader=new FileReader(file);
+        Type listType=new TypeToken<ArrayList<Driver>>(){}.getType();
+        return gson.fromJson(fileReader,listType);
+    }
     public static ArrayList<VehicleClass> readTruckListfromJSON(String filePath) throws FileNotFoundException {
         Gson gson=new GsonBuilder().setPrettyPrinting().create();
         File file=new File(filePath);
@@ -83,14 +98,20 @@ public class Main {
     }
     public static void main(String[] Args) throws IOException {
         initializeVehicles();
+
         VehicleClass current=Trucks.get(0);
-        System.out.println(current.getID()+": "+"Speed:"+current.getSpeed()+" Fuel Consumption per 100km:"+current.getFuelConsumption()+" Range:"+current.getRange()+" Weight Capacity:"+current.getWeightCapacity());
+       // System.out.println(current.getID()+": "+"Speed:"+current.getSpeed()+" Fuel Consumption per 100km:"+current.getFuelConsumption()+" Range:"+current.getRange()+" Weight Capacity:"+current.getWeightCapacity());
+
+        Random random = new Random();
 
 
+
+
+
+/*
         writeVehicleListtoJSON(Trucks,"./TrucksInfo");
         writeVehicleListtoJSON(Ships,"./ShipsInfo");
         writeVehicleListtoJSON(Airplanes,"./AirplanesInfo");
-
-
+*/
     }
 }
