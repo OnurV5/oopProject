@@ -21,7 +21,7 @@ public class Main {
     public static AirplaneStore airplaneStore=new AirplaneStore();
     static ArrayList<VehicleClass> Airplanes=new ArrayList<VehicleClass>();
     static ArrayList<Driver> Drivers = new ArrayList<>();
-
+    public static ArrayList<Order> Orders = new ArrayList<>();
     /*
     DEFAULT VEHİCLES:
 
@@ -34,7 +34,8 @@ public class Main {
         Ships=readShipListfromJSON("./ShipsInfo");
         Airplanes=readAirplaneListfromJSON("./AirplanesInfo");
         Drivers=readDriverListfromJSON("./DriversInfo");
-        System.out.println("Vehicles and Drivers Initialized!");
+        Orders=readOrderListfromJSON("./OrdersInfo");
+        System.out.println("Vehicles, Drivers and Orders are Initialized!");
     }
     public static void addDriver(ArrayList<Driver> Drivers, Driver driver) { Drivers.add(driver); }
     public static void deleteDriver(ArrayList<Driver> Drivers, int driverID) {
@@ -46,6 +47,13 @@ public class Main {
                 return;
             }
         }
+    }
+    public static Driver driverOfVehicle(ArrayList<Driver> Drivers, String vehicleID) {
+        for (Driver d : Drivers) {
+            if (d.getVehicle().getID().equals(vehicleID))
+                return d;
+        }
+        return null;
     }
     public static Driver searchDriver(ArrayList<Driver> Drivers, int driverID) {
         for (Driver driver : Drivers) {
@@ -62,6 +70,13 @@ public class Main {
         fileWriter.close();
     }
     public static void writeDriverListtoJSON(ArrayList<Driver> list,String filePath) throws IOException {
+        Gson gson=new GsonBuilder().setPrettyPrinting().create();
+        File file=new File(filePath);
+        FileWriter fileWriter=new FileWriter(file);
+        gson.toJson(list,fileWriter);
+        fileWriter.close();
+    }
+    public static void writeOrderListtoJSON(ArrayList<Order> list,String filePath) throws IOException {
         Gson gson=new GsonBuilder().setPrettyPrinting().create();
         File file=new File(filePath);
         FileWriter fileWriter=new FileWriter(file);
@@ -96,22 +111,73 @@ public class Main {
         Type listType=new TypeToken<ArrayList<Airplane>>(){}.getType();
         return gson.fromJson(fileReader,listType);
     }
+    public static ArrayList<Order> readOrderListfromJSON(String filePath) throws FileNotFoundException {
+        Gson gson=new GsonBuilder().setPrettyPrinting().create();
+        File file=new File(filePath);
+        FileReader fileReader=new FileReader(file);
+        Type listType=new TypeToken<ArrayList<Order>>(){}.getType();
+        return gson.fromJson(fileReader,listType);
+    }
+    public static int LoginScreen() throws IOException {
+        User Login=new User();
+        return Login.loginorregister();
+    }
     public static void main(String[] Args) throws IOException {
+        int ID=LoginScreen();
         initializeVehicles();
-
-        VehicleClass current=Trucks.get(0);
-       // System.out.println(current.getID()+": "+"Speed:"+current.getSpeed()+" Fuel Consumption per 100km:"+current.getFuelConsumption()+" Range:"+current.getRange()+" Weight Capacity:"+current.getWeightCapacity());
-
-        Random random = new Random();
-
-
-
-
-
+        GUI gui=new GUI();
+        //   VehicleClass current=Trucks.get(0);
+        //   System.out.println(current.getID()+": "+"Speed:"+current.getSpeed()+" Fuel Consumption per 100km:"+current.getFuelConsumption()+" Range:"+current.getRange()+" Weight Capacity:"+current.getWeightCapacity());
+        writeOrderListtoJSON(Orders,"./OrdersInfo");
 /*
         writeVehicleListtoJSON(Trucks,"./TrucksInfo");
         writeVehicleListtoJSON(Ships,"./ShipsInfo");
         writeVehicleListtoJSON(Airplanes,"./AirplanesInfo");
 */
     }
+    public static void initializeOrdersRandomly(){
+        Random random = new Random();
+        for(int i = 0; i < 100; i++) {
+            int orderID = i + 1;
+            int orderDate = 20240101 + random.nextInt(1231); // Rough approximation for random dates in 2024
+
+            // Create a random customer
+            Customer customer = new Customer(
+                    random.nextInt(1000) + 1,
+                    "Customer" + (random.nextInt(1000) + 1),
+                    "Address" + (random.nextInt(1000) + 1),
+                    905000000 + random.nextInt(1000000000),
+                    "customer" + (random.nextInt(1000) + 1) + "@hostname.com.tr"
+            );
+
+            // Create a random supplier
+            Supplier supplier = new Supplier(
+                    random.nextInt(100) + 1,
+                    "Supplier" + (random.nextInt(100) + 1),
+                    "Address" + (random.nextInt(100) + 1),
+                    905000000 + random.nextInt(1000000000),
+                    "supplier" + (random.nextInt(100) + 1) + "@hostname.com.tr"
+            );
+
+            // Create a random product
+            Product product = new Product(
+                    random.nextInt(1000) + 1,
+                    "Product" + (random.nextInt(1000) + 1),
+                    random.nextInt(100) + 1
+            );
+
+            // Create a random warehouse
+            Warehouse warehouse = new Warehouse(
+                    random.nextInt(10) + 1,
+                    "Location" + (random.nextInt(10) + 1),
+                    1000,
+                    null
+            );
+
+            int quantity = random.nextInt(100) + 1;
+
+            // Create the order with random data
+            Orders.add(new Order(orderID, orderDate, customer.getCustomerID(), customer, supplier, warehouse, product, quantity));
+        }
+}
 }

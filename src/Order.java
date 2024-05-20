@@ -4,7 +4,7 @@ public class Order {
     int customerID;
     int quantity;
 
-    public Order(int orderID, int orderDate, int customerID, Customer customer, Supplier supplier, Warehouse warehouse,int quantity) {
+    public Order(int orderID, int orderDate, int customerID, Customer customer, Supplier supplier, Warehouse warehouse,Product product,int quantity) {
         this.orderID = orderID;
         this.orderDate = orderDate;
         this.customerID = customerID;
@@ -12,6 +12,7 @@ public class Order {
         this.supplier = supplier;
         this.warehouse = warehouse;
         this.quantity=quantity;
+        this.product=product;
     }
 
     public int getOrderDate() {
@@ -42,7 +43,12 @@ public class Order {
         return orderID;
     }
 
+    public Product getProduct() {
+        return product;
+    }
 
+
+    Product product;
     Customer customer;
     Supplier supplier;
     Warehouse warehouse;
